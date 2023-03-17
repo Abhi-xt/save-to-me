@@ -5,14 +5,11 @@ from pyrogram.errors import UserAlreadyParticipant, InviteHashExpired
 import time
 import os
 import threading
-from decouple import config
-
-import logging, time, sys
-
-logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',level=logging.WARNING)
 
 
-              
+
+
+
 bot_token = os.environ.get("TOKEN", "5296959562:AAHTixHnjRQadr_PBzV16SobCOMeVbPDzfA") 
 api_hash = os.environ.get("HASH", "33a37e968712427c2e7971cb03f341b3") 
 api_id = os.environ.get("ID", "15523035")
